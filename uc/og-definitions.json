@@ -1,6 +1,6 @@
 {
     "version": "21",
-    "date": "2022/04/22",
+    "date": "2022/06/30",
     "migration": [
         {
             "old": "acegisecurity",
@@ -283,6 +283,10 @@
         {
             "old": "com.ibatis:ibatis-sqlmap",
             "new": "com.ibatis:ibatis2-sqlmap"
+        },
+        {
+            "old": "com.jcraft:jsch",
+            "new": "com.github.mwiede:jsch"
         },
         {
             "old": "com.jayway.maven.plugins.android.generation2:maven-android-plugin",
